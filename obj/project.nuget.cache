@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pH5k53GR1fdHnosAy/gQDdnO6qilOHPXgX2AkR1jiqH3MYpzzXvqQXoVBidIn8/dO14TAaMajsumdRjZyaBtnQ==",
+  "success": true,
+  "projectFilePath": "C:\\steamcmd\\cs2-ds\\game\\csgo\\addons\\counterstrikesharp\\source\\OneInTheChamber\\CS2-One-In-The-Chamber\\OneInTheChamber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ddfigueiras\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.12\\microsoft.netcore.app.ref.7.0.12.nupkg.sha512",
+    "C:\\Users\\ddfigueiras\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.12\\microsoft.windowsdesktop.app.ref.7.0.12.nupkg.sha512",
+    "C:\\Users\\ddfigueiras\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.12\\microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
