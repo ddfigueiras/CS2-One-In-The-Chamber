@@ -180,8 +180,8 @@ public class OneInTheChamber : BasePlugin
     }
     private HookResult EventItemEquip(EventItemEquip @event, GameEventInfo info) 
     {
+        if (@event.Userid == null || !@event.Userid.PlayerPawn.IsValid || @event.Userid.PlayerPawn.Value == null) return HookResult.Continue;
         CCSPlayerController? player = @event.Userid;
-        if (player == null || !player.PlayerPawn.IsValid || player.PlayerPawn.Value == null) return HookResult.Continue;
         if(oitc)
         {
             if(player.PlayerPawn.Value == null || player.PlayerPawn.Value.WeaponServices == null) return HookResult.Continue;
