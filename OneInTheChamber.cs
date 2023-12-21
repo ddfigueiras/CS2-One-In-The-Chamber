@@ -180,11 +180,13 @@ public class OneInTheChamber : BasePlugin
     }
     private HookResult EventItemEquip(EventItemEquip @event, GameEventInfo info) 
     {
-        if (@event.Userid == null || !@event.Userid.PlayerPawn.IsValid || @event.Userid.PlayerPawn.Value == null) return HookResult.Continue;
+        if(@event.Userid == null) return HookResult.Continue;
         CCSPlayerController? player = @event.Userid;
         if(oitc)
         {
-            if(player.PlayerPawn.Value == null || player.PlayerPawn.Value.WeaponServices == null) return HookResult.Continue;
+            CCSPlayerPawn? pawn = player.PlayerPawn.Value;
+            if(pawn == null) return HookResult.Continue;
+            if(pawn.WeaponServices?.MyWeapons == null) return HookResult.Continue;
 
             foreach (var weapon in player.PlayerPawn.Value.WeaponServices.MyWeapons)
             {
