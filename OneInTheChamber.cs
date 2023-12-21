@@ -97,6 +97,7 @@ public class OneInTheChamber : BasePlugin
     {
         oitc = false;
         _warnMessage?.Kill();
+        FriendlyFire(false);
         return HookResult.Continue;
     }
     private HookResult EventPlayerHurt(EventPlayerHurt @event, GameEventInfo info)
