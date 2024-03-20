@@ -1,4 +1,7 @@
-This is my 'OneInTheChamber' plugin that I'm using on my server, released upon request. However, please note that I may not provide ongoing support for this plugin.
+# [OUTDATED]
+
+ 
+# This is my 'OneInTheChamber' plugin that I'm using on my server, released upon request. However, please note that I may not provide ongoing support for this plugin.
 
 Commands:
 
